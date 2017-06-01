@@ -3,6 +3,9 @@
 
 */
 
+
+/* JASPERSOFT DEFAULT DARK THEME */
+
 /* BUTTONS */
 
 #globalSearch .button.search {
@@ -258,4 +261,139 @@ a.emphasis:active {
 
 .jive_inputbutton.plain {
     background: none repeat scroll 0 0 transparent !important;
+}
+
+
+
+
+/* FONTS FONTS FONTS */
+
+
+
+/* File theme.css */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Franklin Gothic Demi', Geneva, Calibri, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+pre,
+code,
+tt {
+	font: 1em 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+	line-height: 1.5;
+}
+
+
+body,
+textarea,
+.body,
+.title>.path,
+input,
+select {
+	font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+	font-weight: normal;
+}
+
+.default,body,
+.message,
+.message.warning {
+	font-size: 11px;
+	line-height:1.182em; /* 11 x 1.182 = 13 */
+	font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+	font-weight: normal;
+}
+
+
+
+#copyright,
+#about {
+	font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+	line-height: 17px;
+	position:absolute;
+}
+
+
+
+
+/* File pageSpecific */
+
+/* persists the body font rules in dashboard view mode */
+#dashboardViewerFrame .componentContainer.control {
+    font-size:11px;
+    font-weight:normal;
+    font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+}
+
+#reportContainer #innerPagination td,
+#reportContainer #innerPagination input {
+    font-size: 11px;
+    font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+    vertical-align: middle;
+}
+
+.workflow-buttonContainer .button {
+    font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 16px;
+    /* color: #1572cf; old color */
+    /* color definition is in theme.css so element can remain themable */
+}
+
+.sList {    
+/* fonts */
+    font-family:'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+    font-size:11px;
+    line-height:1.182em;
+}
+
+
+
+
+/* File buttons.css.data */
+
+.button .wrap {
+	font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif; /* fixes the problem that some browsers are rendering in lucida grande */
+}
+
+.action>.wrap {
+	font: bold 11px 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+}
+
+.action.jumbo>.wrap {
+	font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+}
+
+.button.capsule.text {
+	font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+}
+
+
+
+
+/* File controls.css */
+
+
+.calendar table {
+	font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
+}
+
+
+.content.tabbed .tabSet.horizontal.buttons .button .wrap {
+	font-weight:normal;
+}
+
+
+
+
+
+/* File dialogSpecific *?
+
+
+#managedPrintLoader p {
+	font-family: 'Franklin Gothic Book', Geneva, Calibri, sans-serif;
 }
