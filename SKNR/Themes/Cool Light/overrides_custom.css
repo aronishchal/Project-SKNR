@@ -9,50 +9,50 @@
 /* BUTTONS */
 
 #globalSearch .button.search {
-	border-left: 2px solid #000b2c;
+	border-left: 2px solid #554269;
 }
 
 .action.jumbo.up.pressed {
     background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #bf5b08;
+    border: 1px solid #C7F080;
 }
 
 .action.primary {
     background-image: none;
-    background-color: #035b85;
+    background-color: #9785c3;
 }
 
 /* CONTAINERS */
 
 .banner {
-	background-color: #003356;
+	background-color: #3D3592;
 }
 
 column.decorated {
-	border:1px solid #000b2c;
+	border:1px solid #9785C3;
 }
 
 #frameFooter {
-	background-color: #003356;
+	background-color: #3d3592;
 }
 
 .panel.tooltip .message.label {
-    color: #035B85;
+    color: #ab9dcf;
     margin-bottom: 0;
 }
 
 .menu.vertical li > .wrap.over {
-    background-color: #dd770d;
-    /* background-color: #ff9f03; */
+    background-color: #35ba2a;
+    /* background-color: #c7f080; */
 }
 
 .menu.vertical li > .wrap.pressed {
-    background-color: #bf5b08;
-    /* background-color: #e27114; */
+    background-color: #35ba2a;
+    /* background-color: #c7f080; */
 }
 
 #systemMessage {
-    color: #035b85;
+    color: #9785c3;
     font-weight: bold;
     text-align: center;
 }
@@ -61,7 +61,7 @@ column.decorated {
 /* CONTROLS */
 
 #globalSearch.searchLockup > .wrap {
-	border: 1px solid #000b2c;
+	border: 1px solid #665478;
 }
 
 /* LISTS */
@@ -74,12 +74,12 @@ column.decorated {
 .mSelect-svList > .selected .mSelect-svList-button,
 .list.filters > li > .wrap.over,
 .list.filters > li > .wrap.pressed {
-	background-color: #035B85;
+	background-color: #b6a9d5;
 }
 
 .sList li.active.selected,
 .mSelect-svList > .active.selected .mSelect-svList-button {
-	background-color:#054e71;
+	background-color:#443ba3;
 }
 
 .collapsible > li > .wrap > .icon,
@@ -101,19 +101,19 @@ column.decorated {
 .resourceBlock a:hover, 
 .resourceBlock a:active, 
 .workflow-description a:hover {
-	color:#035b85;
+	color:#6962b5;
 }
 
 .button.action.primary.disabled,
 .button.action.primary[disabled], 
 .tabSet.buttons.vertical [disabled] {
-    color: #7595ab;
+    color: #9785c3;
 }
 
 .palette10,
 #metaLinks a:active,
 a#about:active {
-	color:#92c6de;
+	color:#cbc2e1;
 }
 
 /* dark blue in gradient */ 
@@ -135,7 +135,7 @@ a#about:active {
 #reportContainer a,
 .plusminus .node>.wrap>.jrbookmark,
 .filterManagerDialog .addNewFilter {
-	color:#035b85;
+	color:#443ba3;
 }
 
 /* orange */
@@ -143,20 +143,20 @@ a#about:active {
 .textAccent,
 .button.action.jumbo.over,
 #needHelp {
-	color:#dd770d;
+	color:#35ba2a;
 }
 
 /* .orange2 */
 .palette14,
 #needHelp:active,
 .button.action.jumbo.pressed {
-	color:#bf5b08;
+	color:#2a9421;
 }
 
 /* orange3 */
 .palette15,
 .button.capsule.down {
-	color:#532a0a;
+	color:#1f6f19;
 }
 
 /* orange4 */
@@ -164,7 +164,7 @@ a#about:active {
 .button.capsule.down.disabled,
 .button.capsule.down[disabled],
 .resourcePath {
-	color:#9f481d;
+	color:#5dc754;
 }
 
 .wrap.dragging,
@@ -175,7 +175,7 @@ a#about:active {
 .overlay.legend.dragging,
 .dragMultiple.dragging .wrap {
 	/* an object being dragged gets the .dragging class applied */
-	background-color:#035b85 !important;
+	background-color:#443ba3 !important;
 }
 
 #frameFooter #about a, 
@@ -184,8 +184,8 @@ a#about:active {
 #frameFooter #about a:hover, 
 #frameFooter #about a:active,
 #frameFooter #copyright {
-	color: #84a2b6;
-	color: #84a2b6\9; /* IE8 and IE9 */
+	color: #ab9dcf;
+	color: #ab9dcf\9; /* IE8 and IE9 */
 }
 
 a.emphasis,
@@ -197,13 +197,13 @@ a.emphasis:active {
 }
 
 
-.palette09_bkgd {background-color:#035b85;}
-.palette10_bkgd {background-color:#92c6de;}
-.palette11_bkgd {background-color:#035b85;}
-.palette13_bkgd {background-color:#dd770d;}
-.palette14_bkgd {background-color:#bf5b08;}
-.palette15_bkgd {background-color:#532a0a;}
-.palette16_bkgd {background-color:#9f481d;}
+.palette09_bkgd {background-color:#443ba3;}
+.palette10_bkgd {background-color:#9785C3;}
+.palette11_bkgd {background-color:#443ba3;}
+.palette13_bkgd {background-color:#c7f080;}
+.palette14_bkgd {background-color:#9FC066;}
+.palette15_bkgd {background-color:#25821d;}
+.palette16_bkgd {background-color:#35ba2a;}
 
 
 
@@ -223,36 +223,36 @@ a.emphasis:active {
 }
 
 #loginPage .info > .content {
-	background-color: #035b85;
+	background-color: #443ba3;
 }
 
 #resultsList li.selected > div.wrap > div.resourceType,
 #resultsList li.pressed > div.wrap > div.resourceType {
-	background:#035b85 !important;
+	background:#443ba3 !important;
 }
 
 .authorityPicker .selected,
 .authorityPicker .highlighted.selected {
-    background-color: #035b85;
+    background-color: #443ba3;
 }
 
 .workflow-buttonContainer .button {
-    color: #1c78a4;
+    color: #9785c3;
 }
 
 
 /* JIVE */
 
 .jive_dialog .dialogHeader {
-    color: #035b85 !important;
+    color: #443ba3 !important;
 }
 
 #jive_dialog .button.action {
-	background: url("images/button_action_sprite.png") repeat-x scroll 0 0 #D8DAD7 !important;
+	background: url("images/button_action_sprite.png") repeat-x scroll 0 0 #c0b5db !important;
 }
 
 #jive_dialog .button.action.primary {
-	background: url("images/button_action_primary_sprite.png") repeat-x scroll 0 0 #2881BB !important;
+	background: url("images/button_action_primary_sprite.png") repeat-x scroll 0 0 #a191c9 !important;
 }
 
 .jive_inputbutton {
@@ -261,8 +261,6 @@ a.emphasis:active {
 
 .jive_inputbutton.plain {
     background: none repeat scroll 0 0 transparent !important;
-}
-
 
 
 
